@@ -1,15 +1,11 @@
+ActivityOne:A1
+ActivityTwo:A2
+
 b)
-	ActivityOne: onCreate(), onStart(), onResume(), onPause(), onStop()
-	ActivityTwo: onCreate(), onStart(), onResume()
-
+	A1:onCreate(), A1:onStart(), A1:onResume(), A1:onPause(),A2:onCreate(), A2:onStart(), A2:onResume(), A1:onStop()
 c)
-	ActivityOne: onRestart(), onStart(), onResume()
-	ActivityTwo: onPause(), onStop(), onDestroy()
-
+	A2:onPause(), A1:onRestart() A1:onStart(), A1:onResume(), A2:onStop() , A2:onDestroy()
 d)
-	ActivityOne: onPause(), onStop()
-	ActivityTwo: onCreate(), onStart(), onResume(), onPause(), onStop()
-
+ 	A1:onPause(),A2:onCreate(), A2:onStart(), A2:onResume(), A1:onStop() , A2:onPause(), A2:onStop() 
 e)
-	ActivityOne: None
-	ActivityTwo: onRestart(), onStart(), onResume()
+	A2:onRestart(), A2:onStart(), A2:onResume()
